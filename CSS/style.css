@@ -1,0 +1,327 @@
+/* Common CSS Starts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.container {
+    width: 1180px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
+}
+/* Common CSS Ends */
+/* Nav Section Starts */
+#nav {
+    background: #ffece1;
+    border-bottom: 5px solid #f6e2d7;
+}
+#nav .row {
+    align-items: center;
+}
+#nav .logo {
+    width: 10%;
+    padding: 29px;
+}
+#nav .logo a img {
+    width: 90px;
+    display: block;
+}
+#nav .menu_1 {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+#nav .menu_1 ul {
+    display: flex;
+    justify-content: center;
+}
+#nav .menu_1 ul li a {
+    text-transform: uppercase;
+    display: block;
+    color: #639383;
+    padding: 54px 20px;
+    transition: .4s;
+}
+#nav .menu_1 ul li a:hover {
+    color: #fff;
+    background: #dd7017;
+}
+#nav .menu_2 {
+    width: 25%;
+}
+#nav .menu_2 ul {
+    display: flex;
+    justify-content: right;
+}
+#nav .menu_2 ul li a {
+    color: #639383;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 9px 9px;
+}
+#nav .menu_2 ul .search_bar {
+    background-color: #649483;
+    color: #fff;
+    border-radius: 8px;
+    padding: 9px 15px;
+}
+/* Nav Section Ends */
+/* Banner Section Starts */
+#banner {
+    height: 887px;
+    background: #ffece1;
+    position: relative;
+}
+#banner .container {
+    position: relative;
+    height: 100%;
+    /* border: 8px solid red; */
+}
+#banner .row {
+    position: absolute;
+    top: 0;
+    left: 86px;
+    /* border: 2px solid green; */
+    width: 1170px;
+    height: 887px;
+}
+#banner .bn_shape_1 {
+    width: 606px;
+    height: 538px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#banner .bn_shape_2 {
+    width: 330px;
+    height: 380px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#banner .row .img_part {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    /* align-items: center; */
+    /* border: 2px solid red; */
+}
+#banner .row .img_part img {
+    height: 573px;
+    width: 572px;
+    margin-top: 170px;
+    margin-bottom: -40px;
+    /* display: block; */
+    /* border: 5px solid orangered; */
+}
+#banner .row .img_part h5 {
+    font-size: 14px;
+    font-weight: 800;
+    color: #649483;
+    padding-bottom: 5px;
+    /* height: 30px; */
+    /* border: 2px solid blue; */
+}
+#banner .row .img_part p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #649483;
+    text-align: center;
+    padding: 0 120px;
+    /* display: block;
+    margin: auto; */
+}
+#banner .row .heading_part {
+    height: 100%;
+    width: 50%;
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center; */
+    /* border: 2px solid olivedrab; */
+}
+#banner .row .heading_part h1 {
+    font-size: 85px;
+    font-weight: 800;
+    color: #dd7017;
+    /* border: 2px solid gray; */
+    margin-top: 215px;
+    margin-bottom: 10px;
+}
+#banner .row .heading_part a {
+    color: #649483;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 10px 16px ;
+    background: #fff;
+    margin-right: 20px;
+    border: 1px solid #649483;
+    border-radius: 10px;
+    text-transform: uppercase;
+    /* margin-bottom: 500px; */
+}
+#banner .row .heading_part a:hover {
+    background: #649483;
+    color: #fff;
+}
+#banner .row .heading_part .info_section {
+    width: 652px;
+    height: 172px;
+    background: #ca6515;
+    padding: 19px 5px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 75px;
+    border-radius: 20px;
+}
+#banner .row .heading_part .info_section h5 {
+    width: 8%;
+    height: 100%;
+    color: #fff;
+}
+#banner .row .heading_part .info_section .selection {
+    width: 21%;
+    height: 90%;
+    
+    /* border: 2px solid violet; */
+}
+#banner .row .heading_part .info_section .selection img {
+    width: 92px;
+    height: 92px;
+    /* border: 2px solid green; */
+    display: block;
+    margin: auto;
+    
+}
+#banner .row .heading_part .info_section .selection p {
+    font-size: 11px;
+    font-weight: 800;
+    text-align: center;
+    color: #fff;
+    /* border: 2px solid red; */
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+#banner .row .heading_part .info_section .anchor {
+    width: 8%;
+}
+#banner .row .heading_part .info_section .anchor a {
+    color: #fff;
+    background: none;
+    border: none;
+    font-size: 30px;
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+#banner .row .heading_part .info_section .anchor a:hover {
+    color: #649483;
+}
+/* Banner Section Ends */
+/* Our Favorite Section Starts */
+#our_favorite {
+    height: 1016px;
+    background: #649483;
+}
+#our_favorite h2 {
+    font-size: 112px;
+    font-weight: 800;
+    color: #fff;
+    padding-top: 90px;
+}
+#our_favorite p {
+    font-size: 17px;
+    font-weight: 800;
+    color: #fff;
+}
+#our_favorite .row {
+    padding-bottom: 120px;
+    padding-top: 70px;
+}
+#our_favorite .row .item {
+    height: 578px;
+    width: 31.33%;
+    background: #ffece1;
+    border-radius: 20px;
+    margin: 0 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0 87px;
+}
+#our_favorite .row .item h5 {
+    font-size: 19px;
+    font-weight: 800;
+    color: #649483;
+    padding: 0 90px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+#our_favorite .row .item p {
+    font-size: 19px;
+    font-weight: 400;
+    color: #649483;
+    padding: 0 50px;
+    text-align: center;
+    margin-top: -30px;
+}
+/* Our Favorite Section Ends */
+/* MP & Recipes Section Starts */
+#mp_recipes {
+    height: 1820px;
+    background: #ffebe1;
+    position: relative;
+}
+#mp_recipes .mp_recipes_shape_1 {
+    width: 506px;
+    height: 445px;
+    position: absolute;
+    top: 0;
+    left: -45px;
+}
+#mp_recipes .mp_recipes_shape_2 {
+    width: 420px;
+    height: 423px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#mp_recipes .container {
+    height: 100%;
+    border: 2px solid red;
+}
+#mp_recipes .row {
+    align-items: center;
+    height: 910px;
+}
+#mp_recipes .mp_img_left {
+    display: flex;
+    align-items: center;
+}
+#mp_recipes .mp_img_left img {
+    width: 493px;
+    height: 676px;
+    border-radius: 20px;
+}
+/* MP & Recipes Section Ends */
